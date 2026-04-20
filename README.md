@@ -59,5 +59,8 @@ Chain with precision…
 ```bash
 Use surgical prompt chaining to add AVFoundation beeps and randomized delays to the TimerEngine. Do not touch SettingsView.swift.
 ```
+Currently Being Used In
+TriggerPulse — a focused training timer for shooters with native Apple Watch support.
+
 
 
