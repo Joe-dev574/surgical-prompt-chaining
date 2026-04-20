@@ -27,6 +27,37 @@ Every response ends with: **“Ready for next step or human review?”**
 
 1. Open **Terminal** and run:
 
-   ```bash
-   mkdir -p ~/.grok/skills/surgical-prompt-chaining
-   cd ~/.grok/skills/surgical-prompt-chaining
+  ```bash
+mkdir -p ~/.grok/skills/surgical-prompt-chaining
+cd ~/.grok/skills/surgical-prompt-chaining
+touch SKILL.md README.md
+```
+
+Then copy the contents of SKILL.md and README.md from this repo into those files.
+Verify the files were created:
+
+```bash
+ls ~/.grok/skills/surgical-prompt-chaining/
+```
+
+You should see: SKILL.md and README.md
+How to Use
+Start any message to Grok with one of these trigger phrases:
+Recommended Trigger Phrases (copy & paste):
+
+Use surgical prompt chaining to…
+```bash
+Use surgical prompt chaining to correct only the compile errors in SettingsView.swift. Do NOT rewrite the file.
+```
+
+Surgical edits only…
+```bash
+Surgical edits only: add a new Stepper for default number of strings in the Timer Defaults section.
+```
+
+Chain with precision…
+```bash
+Use surgical prompt chaining to add AVFoundation beeps and randomized delays to the TimerEngine. Do not touch SettingsView.swift.
+```
+
+
