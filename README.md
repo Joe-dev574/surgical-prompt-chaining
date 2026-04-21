@@ -75,3 +75,16 @@ You stay in complete control at every stage.
 mkdir -p ~/.grok/skills/surgical-prompt-chaining
 cd ~/.grok/skills/surgical-prompt-chaining
 # Place SKILL.md and this README.md in the directory
+```
+
+Now place the following two files inside ~/.grok/skills/surgical-prompt-chaining/:
+
+README.md — (this file) — contains documentation and usage instructions
+SKILL.md — contains the exact system-level instructions that tell Grok how to behave when the skill is triggered
+
+Expected Final Directory Structure
+After installation, your folder should look like this:
+
+~/.grok/skills/surgical-prompt-chaining/
+├── README.md
+└── SKILL.md
